@@ -1,0 +1,24 @@
+body{
+    background-color: #F8F7F8;
+}
+
+.navbar{
+    height: 144px;
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.01em;
+
+    color: #0066FF;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
