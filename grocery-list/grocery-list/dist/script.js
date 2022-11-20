@@ -2,6 +2,7 @@ const btnAdd = document.querySelector('#btnAdd');
 const btnRemove = document.querySelector('#btnRemove');
 const listbox = document.querySelector('#list');
 const framework = document.querySelector('#framework');
+// const itemImage = document.quarySelector('#itemImage');
 
 btnAdd.onclick = (e) => {
   e.preventDefault();
@@ -14,6 +15,10 @@ btnAdd.onclick = (e) => {
   // create a new option
   const option = new Option(framework.value, framework.value);
   // add it to the list
+  if (option == "banana"){
+      itemImage = 'banana.png';
+  }
+
   listbox.add(option, undefined);
 
   // reset the value of the input
